@@ -1,1 +1,2 @@
 
+#[org.apache.commons.lang3.StringUtils.substring(payload,0,2)]
