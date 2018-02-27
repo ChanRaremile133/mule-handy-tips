@@ -1,0 +1,185 @@
+{
+	"id": "7640d427-9b5a-e334-249b-6772ff2efe74",
+	"name": "Customer",
+	"description": "",
+	"order": [
+		"6a46c5a7-ea16-5fb8-d173-30a2b5f089a5",
+		"ea7aa401-2e34-dcd2-482b-fdadcfed0c2e",
+		"9cd0d3be-da62-1896-45ec-7d2c128f822a",
+		"72ffdc8f-0240-3a51-03b5-1925dc32198f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1519685561763,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "6a46c5a7-ea16-5fb8-d173-30a2b5f089a5",
+			"headers": "Content-Type: application/json\nclient_id: abcdef\nclient_secret: cdef\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "abcdef",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cdef",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8089/api/customers/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519685742101,
+			"name": "http://localhost:8089/api/customers/",
+			"description": "",
+			"collectionId": "7640d427-9b5a-e334-249b-6772ff2efe74",
+			"responses": [],
+			"rawModeData": "[{\r\n\t\"firstName\": \"Jono\",\r\n\t\"lastName\":  \"white\",\r\n\t\"address\": \"park road,Wellington\"\r\n}]"
+		},
+		{
+			"id": "72ffdc8f-0240-3a51-03b5-1925dc32198f",
+			"headers": "//Content-Type: application/json\nclient_id: abcdef\nclient_secret: cdef\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "client_id",
+					"value": "abcdef",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cdef",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8089/api/customers/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519685813677,
+			"name": "http://localhost:8089/api/customers/ copy copy",
+			"description": "",
+			"collectionId": "7640d427-9b5a-e334-249b-6772ff2efe74",
+			"responses": [],
+			"rawModeData": "[{\r\n\t\"firstName\": \"Jono\",\r\n\t\"lastName\":  \"white\",\r\n\t\"address\": \"park road,Wellington\"\r\n}]"
+		},
+		{
+			"id": "9cd0d3be-da62-1896-45ec-7d2c128f822a",
+			"headers": "//Content-Type: application/json\nclient_id: abcdef\nclient_secret: cdef\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "client_id",
+					"value": "abcdef",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cdef",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8089/api/customers/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519685670019,
+			"name": "http://localhost:8089/api/customers/ copy",
+			"description": "",
+			"collectionId": "7640d427-9b5a-e334-249b-6772ff2efe74",
+			"responses": [],
+			"rawModeData": "[{\r\n\t\"firstName\": \"Jono\",\r\n\t\"lastName\":  \"white\",\r\n\t\"address\": \"park road,Wellington\"\r\n}]"
+		},
+		{
+			"id": "ea7aa401-2e34-dcd2-482b-fdadcfed0c2e",
+			"headers": "Content-Type: application/json\nclient_id: abcdef\nclient_secret: cdef\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "abcdef",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "cdef",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8089/api/customers/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1519685719464,
+			"name": "http://localhost:8089/api/customers/ copy",
+			"description": "",
+			"collectionId": "7640d427-9b5a-e334-249b-6772ff2efe74",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"firstName\": \"Jono\",\r\n\t\"lastName\":  \"white\",\r\n\t\"address\": \"park road,Wellington\"\r\n}"
+		}
+	]
+}
