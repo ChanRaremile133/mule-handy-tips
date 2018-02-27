@@ -1,2 +1,2 @@
 #[xpath3('//*:test')]
-#[xpath3('/IRIS/@MessageTypeId')] - Xpath for Attribute
+#[xpath3('/IRS/@MessageId')] - Xpath for Attribute
