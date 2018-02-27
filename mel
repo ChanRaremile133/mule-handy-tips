@@ -1,2 +1,4 @@
 
 #[org.apache.commons.lang3.StringUtils.substring(payload,0,2)]
+
+#[server.nanoTime()/1000000] - calculate nano time
