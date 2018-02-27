@@ -1,0 +1,17 @@
+%dw 1.0
+%output application/xml encoding = "UTF-8"
+%namespace ns0 example.com
+---
+{
+	ns0#getParms: {
+		userId: payload.result..USERGROUP[0] as :string ++ "/" ++ 
+				payload.result..USERID[0] as :string,
+		parms: {
+			   Type: payload.result..TYPE[0] match {
+				"IND" -> "INDIA",
+				"NZ" -> "NEWZEALAND"
+			},
+			Delivery: true
+		}
+	}
+}
