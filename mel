@@ -2,3 +2,7 @@
 #[org.apache.commons.lang3.StringUtils.substring(payload,0,2)]
 
 #[server.nanoTime()/1000000] - calculate nano time
+
+"expirationDateTime": ((payload[0].EXPIRATIONDATETIME as :string {format: "yyyy-MM-dd HH:mm:ss.SSS"})
+	as :localdatetime {format: "yyyy-MM-dd HH:mm:ss.SSS"})
+	as :datetime {format: "yyyy-MM-dd HH:mm:ss.SSS"} >> |+12:00|
